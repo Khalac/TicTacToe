@@ -1,0 +1,31 @@
+.game_name{
+    position: relative;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.score{
+    color: white;
+    display: flex;
+    font-size: 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    .human_score{
+        margin-right: 15px;
+    }
+    .draw_score{
+        margin-right: 15px;
+    }
+    .play_again{
+        margin-left: 20px;
+        font-size: 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
